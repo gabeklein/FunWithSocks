@@ -1,0 +1,10 @@
+{application,fun_with_socks,
+             [{registered,[]},
+              {description,"fun_with_socks"},
+              {vsn,"0.0.1"},
+              {modules,['Elixir.AChatRoom','Elixir.AChatRoom.Admin',
+                        'Elixir.AChatRoom.User','Elixir.FunWithSocks',
+                        'Elixir.INewUser','Elixir.IUserBasic',
+                        'Elixir.IUserLobby','Elixir.WebSocketSuper']},
+              {applications,[kernel,stdlib,elixir,cowboy,socks]},
+              {mod,{'Elixir.FunWithSocks',[]}}]}.
