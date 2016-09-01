@@ -21,7 +21,7 @@ defmodule FunWithSocks.Mixfile do
   defp deps do
     [
       {:cowboy,       "~> 1.0.3",    override: true },
-      {:socks, path: "socks"}
+      {:socks, github: "gabeklein/Socks"}
     ]
   end
 end
